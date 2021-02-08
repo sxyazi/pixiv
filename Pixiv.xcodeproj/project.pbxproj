@@ -3,24 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4907672A25C69D17009A8229 /* PixivApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907672925C69D17009A8229 /* PixivApp.swift */; };
-		4907672C25C69D17009A8229 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907672B25C69D17009A8229 /* ContentView.swift */; };
 		4907672E25C69D18009A8229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4907672D25C69D18009A8229 /* Assets.xcassets */; };
 		4907673125C69D18009A8229 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4907673025C69D18009A8229 /* Preview Assets.xcassets */; };
+		49182CF825C9B299004000CA /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182CF725C9B299004000CA /* Mock.swift */; };
+		4928325025CFEE6D0032264D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928324F25CFEE6D0032264D /* LoadingView.swift */; };
+		49458BED25CD2F000007A007 /* AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49458BEC25CD2F000007A007 /* AppService.swift */; };
+		49458BF225CD33020007A007 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49458BF125CD33020007A007 /* Utils.swift */; };
+		49458BF725CD5E590007A007 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49458BF625CD5E590007A007 /* RootView.swift */; };
+		499BE1CB25C9223A00BA5A4A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 499BE1CA25C9223A00BA5A4A /* SDWebImageSwiftUI */; };
+		499EF39E25CCEF020047EFBE /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EF39D25CCEF020047EFBE /* DropView.swift */; };
+		49AE2C9525C7C6EC00100459 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 49AE2C9425C7C6EC00100459 /* Alamofire */; };
+		49AE2C9825C7C71400100459 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE2C9725C7C71400100459 /* SearchService.swift */; };
+		49AE2C9B25C7C98200100459 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE2C9A25C7C98200100459 /* Types.swift */; };
+		49AE2C9E25C82AE100100459 /* HostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE2C9D25C82AE100100459 /* HostService.swift */; };
+		49AE2CAA25C90BD200100459 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 49AE2CA925C90BD200100459 /* SwiftSoup */; };
+		49AE2CAE25C915E500100459 /* PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE2CAD25C915E500100459 /* PickView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4907672625C69D17009A8229 /* Pixiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4907672925C69D17009A8229 /* PixivApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixivApp.swift; sourceTree = "<group>"; };
-		4907672B25C69D17009A8229 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4907672D25C69D18009A8229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4907673025C69D18009A8229 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4907673225C69D18009A8229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4907673325C69D18009A8229 /* Pixiv.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pixiv.entitlements; sourceTree = "<group>"; };
+		49182CF725C9B299004000CA /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		4928324F25CFEE6D0032264D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		49458BEC25CD2F000007A007 /* AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
+		49458BF125CD33020007A007 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		49458BF625CD5E590007A007 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		499EF39D25CCEF020047EFBE /* DropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		49AE2C9725C7C71400100459 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		49AE2C9A25C7C98200100459 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		49AE2C9D25C82AE100100459 /* HostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostService.swift; sourceTree = "<group>"; };
+		49AE2CAD25C915E500100459 /* PickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +49,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499BE1CB25C9223A00BA5A4A /* SDWebImageSwiftUI in Frameworks */,
+				49AE2C9525C7C6EC00100459 /* Alamofire in Frameworks */,
+				49AE2CAA25C90BD200100459 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +77,12 @@
 		4907672825C69D17009A8229 /* Pixiv */ = {
 			isa = PBXGroup;
 			children = (
+				49458BE425CD2DD40007A007 /* Views */,
+				49458BE325CD2D9F0007A007 /* Services */,
 				4907672925C69D17009A8229 /* PixivApp.swift */,
-				4907672B25C69D17009A8229 /* ContentView.swift */,
+				49AE2C9A25C7C98200100459 /* Types.swift */,
+				49458BF125CD33020007A007 /* Utils.swift */,
+				49182CF725C9B299004000CA /* Mock.swift */,
 				4907672D25C69D18009A8229 /* Assets.xcassets */,
 				4907673225C69D18009A8229 /* Info.plist */,
 				4907673325C69D18009A8229 /* Pixiv.entitlements */,
@@ -69,6 +97,27 @@
 				4907673025C69D18009A8229 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49458BE325CD2D9F0007A007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				49458BEC25CD2F000007A007 /* AppService.swift */,
+				49AE2C9D25C82AE100100459 /* HostService.swift */,
+				49AE2C9725C7C71400100459 /* SearchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		49458BE425CD2DD40007A007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49458BF625CD5E590007A007 /* RootView.swift */,
+				49AE2CAD25C915E500100459 /* PickView.swift */,
+				499EF39D25CCEF020047EFBE /* DropView.swift */,
+				4928324F25CFEE6D0032264D /* LoadingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +136,11 @@
 			dependencies = (
 			);
 			name = Pixiv;
+			packageProductDependencies = (
+				49AE2C9425C7C6EC00100459 /* Alamofire */,
+				49AE2CA925C90BD200100459 /* SwiftSoup */,
+				499BE1CA25C9223A00BA5A4A /* SDWebImageSwiftUI */,
+			);
 			productName = Pixiv;
 			productReference = 4907672625C69D17009A8229 /* Pixiv.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +168,11 @@
 				Base,
 			);
 			mainGroup = 4907671D25C69D17009A8229;
+			packageReferences = (
+				49AE2C9325C7C6EC00100459 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				49AE2CA825C90BD200100459 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				499BE1C925C9223A00BA5A4A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 4907672725C69D17009A8229 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,8 +199,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4907672C25C69D17009A8229 /* ContentView.swift in Sources */,
+				49AE2C9825C7C71400100459 /* SearchService.swift in Sources */,
+				49AE2C9E25C82AE100100459 /* HostService.swift in Sources */,
 				4907672A25C69D17009A8229 /* PixivApp.swift in Sources */,
+				4928325025CFEE6D0032264D /* LoadingView.swift in Sources */,
+				49AE2C9B25C7C98200100459 /* Types.swift in Sources */,
+				49458BF225CD33020007A007 /* Utils.swift in Sources */,
+				49458BF725CD5E590007A007 /* RootView.swift in Sources */,
+				49458BED25CD2F000007A007 /* AppService.swift in Sources */,
+				49182CF825C9B299004000CA /* Mock.swift in Sources */,
+				49AE2CAE25C915E500100459 /* PickView.swift in Sources */,
+				499EF39E25CCEF020047EFBE /* DropView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +397,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		499BE1C925C9223A00BA5A4A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		49AE2C9325C7C6EC00100459 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+		49AE2CA825C90BD200100459 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		499BE1CA25C9223A00BA5A4A /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 499BE1C925C9223A00BA5A4A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		49AE2C9425C7C6EC00100459 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49AE2C9325C7C6EC00100459 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		49AE2CA925C90BD200100459 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49AE2CA825C90BD200100459 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4907671E25C69D17009A8229 /* Project object */;
 }
